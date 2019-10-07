@@ -3,7 +3,7 @@ import UIKit
 
 // playground 好处，不需要项目
 // 可以直接写代码，立刻看到结果
-// 学习语言，测试代码 
+// 学习语言，测试代码
 var str = "Hello, playground"
 
 // oc [[UIView alloc] initWithFrame: CGRectMake...]
