@@ -10,7 +10,7 @@ var str = "Hello, playground"
 
 // init? 说明无法实例化url
 
-let url = NSURL(string: "http://www.baidu.com/")
+let url = NSURL(string: "http://www.baidu.com/中")
 // ! 强行解包，程序员认为这里url 一定有值，一j旦程序崩溃，就会停在此处'
 // 错误提示是让程序员思考一下，代码的安全性更好
 //let request = NSURLRequest(url: url! as URL)
@@ -20,6 +20,46 @@ if url != nil{
   let request = NSURLRequest(url: url! as URL)
   print(request)
 }
+
+
+//if let 判断并且设置数值
+//确保myUrl 一定有值，才会进入分支
+if let myUrl = url {
+    // myUrl 一定有值
+    print(myUrl)
+}
+
+// ?号代码可以为空
+var oName: String? = "张三"
+var OAge: Int? = 18
+
+// 满足二个值才会执行
+if let name = oName, let age = OAge{
+    print(name + String(age))
+}
+
+
+// ?? 操作符号
+// 如果 oName 为nil ,使用 ?? 后面的字符 中，否则使用oName 的结果
+let cName = oName ?? "abc"
+
+//如果 不用??的写法
+var dName: String
+if oName == nil {
+    dName = "abc"
+}else{
+    dName = oName!
+}
+
+// ?? 常见的应用场景，表格要返回数据量
+var dataList: [String]?
+
+dataList = ["z","a"]
+
+let count = dataList?.count ?? 0
+
+
+
 
 
 // 可选项是所有oc程序员开始最痛苦的一关
