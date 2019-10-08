@@ -4,5 +4,6 @@
         <page name='变量和常量'/>
         <page name='Untitled Page'/>
         <page name='逻辑控制'/>
+        <page name='optional'/>
     </pages>
 </playground>
