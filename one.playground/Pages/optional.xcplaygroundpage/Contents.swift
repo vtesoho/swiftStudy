@@ -54,12 +54,14 @@ if oName == nil {
 // ?? 常见的应用场景，表格要返回数据量
 var dataList: [String]?
 
-dataList = ["z","a"]
-
+//dataList = ["z","a"]
+// dataList? 表示dataList  可能为nil
+// 如果 为nil .count 不会报错，仍然返回nil   ，返回为nil  ,就会执行  ??  后面的值
 let count = dataList?.count ?? 0
 
-
-
+// ! 表示程序员来承诺dataList 一定有值，为nil就崩溃
+// 每一次写 ！ 强行解包，一定要思考为个是不是一定会有值
+let count1 = dataList!.count
 
 
 // 可选项是所有oc程序员开始最痛苦的一关
