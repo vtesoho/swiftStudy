@@ -5,5 +5,7 @@
         <page name='Untitled Page'/>
         <page name='逻辑控制'/>
         <page name='optional'/>
+        <page name='Switch'/>
+        <page name='字符串'/>
     </pages>
 </playground>
