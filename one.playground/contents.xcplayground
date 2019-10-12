@@ -7,5 +7,6 @@
         <page name='optional'/>
         <page name='Switch'/>
         <page name='字符串'/>
+        <page name='循环'/>
     </pages>
 </playground>
