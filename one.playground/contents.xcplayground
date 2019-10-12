@@ -8,5 +8,6 @@
         <page name='Switch'/>
         <page name='字符串'/>
         <page name='循环'/>
+        <page name='数组'/>
     </pages>
 </playground>
