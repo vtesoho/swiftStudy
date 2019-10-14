@@ -9,5 +9,6 @@
         <page name='字符串'/>
         <page name='循环'/>
         <page name='数组'/>
+        <page name='字典'/>
     </pages>
 </playground>

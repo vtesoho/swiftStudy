@@ -89,5 +89,5 @@ var arr4 = ["11","12"]
 arr1 += arr2
 
 // 注意，拼接的时候，数组类型必须 是一样的
-var arr3 = arr1 + arr4
+//var arr3 = arr1 + arr4
 //: [Next](@next)
