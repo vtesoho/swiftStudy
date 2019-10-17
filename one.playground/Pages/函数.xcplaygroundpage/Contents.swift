@@ -37,9 +37,9 @@ func demo1(){
 }
 demo1()
 
-func demo2(){
-    print("hah3")
+func demo2() -> (){
+    print("haha3")
 }
-demo2
+demo2()
 
 //: [Next](@next)
