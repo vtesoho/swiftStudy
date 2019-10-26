@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         
-        var str = NSString(contentsOf: NSURL(string: "https://www.baidu.com")! as URL, encoding: String.Encoding.utf8.rawValue)
+        
         
 //        loadData()
         
